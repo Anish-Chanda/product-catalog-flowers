@@ -8,7 +8,7 @@
 
     <nav
       le
-      class="flex bg-neutral-800 bg-neutral-900 place-content-between px-4 lg:px-10 py-2 lg:py-8"
+      class="flex bg-neutral-800 place-content-between px-4 lg:px-10 py-2 lg:py-8"
     >
       <h1 class="text-white text-3xl">Flower Album</h1>
       <div class="border-2 border-grey rounded-md">
@@ -24,7 +24,7 @@
     <main>
       <div class="max-w-screen-xl mx-auto lg:mt-16 mt-10">
         <h1 class="text-3xl font-bold mb-4 lg:mb-8">Directory of Flowers</h1>
-        <ul class="grid grid-cols-3 gap-6 my-10">
+        <ul class="grid grid-cols-3 gap-6 my-10" id="catalog">
           <li class="bg-zinc-200 rounded-lg p-4 hover:scale-105 duration-150">
             <img
               src="./images/bluebell.jpg"
@@ -241,5 +241,19 @@
         </ul>
       </div>
     </main>
+
+    <footer>
+      <div
+        class="bg-neutral-800 flex place-content-between px-4 lg:px-10 py-4 lg:py-6"
+      >
+        <p class="text-white text-md">
+          This Flower catalog is an example is in Tailwind CSS, This is a class
+          activity :)
+        </p>
+        <p class="text-white text-lg">
+          <a href="/#catalog">Back to top</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
